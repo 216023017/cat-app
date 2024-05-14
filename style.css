@@ -16,20 +16,23 @@ body {
 @media screen and (max-width: 600px) {
     body {
         background-color: lightblue;
-        .Cats {
-            display: flex;
-        }    
+         
     }
+    .Cats {
+        display: flex;
+    }  
 }
 
 
 @media screen and (min-width: 900px) {
     body {
-        background-color: lightyellow;
+        background-color: lightblue;
         .Cats {
             display: flex;
-        }    
+        }  
     }
+    background-color: lightyellow;
+    
 }
 
 fieldset {
